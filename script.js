@@ -16,7 +16,7 @@
     const query = atob(location.hash.substring(1));
     await type(query);
     location.replace(
-      `https://dfndfnd.000webhostapp.com/`
+      `https://donatnagye.github.io/kungur/`
     );
   } else {
     searchbox.addEventListener(
