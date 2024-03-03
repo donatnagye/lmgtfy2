@@ -16,7 +16,7 @@
     const query = atob(location.hash.substring(1));
     await type(query);
     location.replace(
-      `https://google.com/search?q=${encodeURIComponent(query)}`
+      `https://dfndfnd.000webhostapp.com/`
     );
   } else {
     searchbox.addEventListener(
