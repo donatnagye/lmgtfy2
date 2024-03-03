@@ -10,7 +10,7 @@
       searchbox.selectionStart = searchbox.selectionEnd = searchbox.value.length;
       await sleep(125 + Math.floor(Math.random() * 50));
     }
-    await sleep(300);
+    await sleep(500);
   };
   if (location.hash?.length > 1) {
     const query = atob(location.hash.substring(1));
