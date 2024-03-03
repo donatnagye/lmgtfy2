@@ -32,7 +32,7 @@
           await navigator.clipboard.writeText(location.href);
           const originalText = searchbtn.innerText;
           searchbtn.innerText = "Copied!";
-          setTimeout(() => (searchbtn.innerText = originalText),3000);
+          setTimeout(() => (searchbtn.innerText = originalText),2000);
         });
       },
       { once: true }
